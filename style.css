@@ -20,13 +20,17 @@ body {
   background: #fff;
   border-radius: 12px;
   margin: 0 20px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15); 
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
-
 
 .container .content {
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: space-between;
+}
 
+.content .topic {
+  font-size: 2em;
+  font-weight: 500;
+  color: #e91e63;
 }
