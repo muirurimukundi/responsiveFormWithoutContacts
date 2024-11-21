@@ -27,6 +27,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 25px 20px;
 }
 
 .content .topic {
@@ -41,4 +42,16 @@ body {
 
 .content .image-box img {
   width: 100%;
+}
+
+.content form {
+  width: 40%;
+  margin-right: 30px;
+}
+
+.content .input-box {
+  height: 50px;
+  width: 100%;
+  margin: 16px 0;
+  position: relative;
 }
