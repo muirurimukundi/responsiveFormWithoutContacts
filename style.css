@@ -55,3 +55,13 @@ body {
   margin: 16px 0;
   position: relative;
 }
+
+.content .input-box input {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  outline: none;
+  background: #e8f0ff;
+  border: 2px solid #e91e63;
+}
