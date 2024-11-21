@@ -59,9 +59,20 @@ body {
 .content .input-box input {
   position: absolute;
   height: 100%;
+  font-size: 1em;
   width: 100%;
   border-radius: 6px;
   outline: none;
+  padding-left: 16px;
   background: #e8f0ff;
-  border: 2px solid #e91e63;
+  border: 2px solid transparent;
+}
+
+.content .input-box label {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #4d5061;
+  font-size: 0.8em;
 }
