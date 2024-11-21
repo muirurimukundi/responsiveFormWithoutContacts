@@ -34,3 +34,11 @@ body {
   font-weight: 500;
   color: #e91e63;
 }
+
+.content .image-box {
+  max-width: 55%;
+}
+
+.content .image-box img {
+  width: 100%;
+}
