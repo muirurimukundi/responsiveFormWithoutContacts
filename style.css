@@ -13,3 +13,9 @@ body {
   justify-content: center;
   background: #e8f0ff;
 }
+
+.container {
+  max-width: 1050px; 
+  width: 100%;
+  background:#fff;  
+}
