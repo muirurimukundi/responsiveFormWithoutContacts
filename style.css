@@ -110,3 +110,13 @@ body {
   border: 2px solid transparent;
   outline: none;
 }
+
+.content .message-box label {
+  position: absolute;
+  font-size: 0.8em;
+  color: #4d5061;
+  left: 18px;
+  top: 6px;
+  pointer-events: none;
+  transition: all 0.3s ease; 
+}
